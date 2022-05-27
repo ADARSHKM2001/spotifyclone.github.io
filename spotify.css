@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+#article{
+    height: 70px;
+    width: 75%;
+    /* border: 2px solid white; */
+    margin: 0px auto;
+    display: flex;
+}
+#logo{
+    height: 70px;
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+
+#navbar{
+    height: 70px;
+    width: 50%;
+    /* border: 2px solid yellow; */
+
+    
+}
+#rightnav{
+    display: flex;
+   list-style: none;
+   justify-content: space-evenly;
+  margin-top: 20px;
+   align-items: center;
+   
+  
+}
+.navoptions, .navoption{
+    color: white;
+    text-decoration: none;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 16px;
+   
+}
+.navoptions:hover{
+    color: #1ed760;
+}
+
+svg{
+    fill: white;
+    width: 23%;
+}
+.sec1{
+    height: 89vh;
+    background-color: #993399;
+}
+
+.sec1div{
+    height: 100%;
+    width: 73%;
+    margin: 0px auto;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Radio Canada', sans-serif;
+    color: white;
+}
+
+.sec1div1{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.sec1div2{
+    height: 100%;
+    width: 37%;
+    /* border: 2px solid red; */
+    background-image: url(Images/spotify-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   margin-top: 95px;
+}
+
+#top1{
+    height: 25px;
+    /* border: 2px solid blue; */
+    font-size: 14px;
+    margin-top: 20px;
+}
+#top2{
+    height: 120px;
+    /* border: 2px solid blue; */   
+    font-size: 32px;
+    font-weight:800;
+   
+}
+#top3{
+    height: 55px;
+    /* border: 2px solid blue; */
+    font-size: 14px;
+    margin-top: -30px;
+}
+#top4{
+    height: 70px;
+    /* border: 2px solid blue; */
+}
+
+#top4 button{
+    height: 50px;
+    width: 200px;
+    border-radius: 500px;
+    /* padding: 14px 32px; */
+    font-family: 'Radio Canada', sans-serif;
+    background-color: black;
+    color: white;   
+    margin-top: -45px;
+    border: 0px;
+}
+#top4 button:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+#top5{
+    height: 50px;
+    /* border: 2px solid rgb(176, 176, 199); */
+    font-size: 11px;
+    margin-top: -35px;
+}
+
+
+
+#top5 p a{
+    color: white;
+}
+
+
+.sec2{
+    height: 84vh;
+    background-color: rgb(41, 65, 171);;
+    display: flex;
+    background-image: url(Images/sec2-background.svg);
+    background-repeat: no-repeat;
+    background-size: 150% 171%;
+    background-position: center;
+    
+    
+
+}
+
+.sec2div{
+    height: 300px;
+    width: 72%;
+    /* border: 2px solid white; */
+    margin: 50px auto;
+    font-family: 'Radio Canada', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1ED760;
+}
+#mid1{
+    height: 50px;
+    /* border: 2px solid white; */
+}
+#mid2{
+    height: 70px;
+    /* border: 2px solid white; */
+    font-size: 35px;
+    font-weight: bolder;
+}
+#mid3{
+    height: 50px;
+    /* border: 2px solid white; */
+}
+#mid4 button{
+    height: 50px;
+    width: 200px;
+    border-radius: 500px;
+    /* padding: 14px 32px; */
+    font-family: 'Radio Canada', sans-serif;
+    background-color: #1ED760;
+    color: #2941AB; 
+    border: 0px;  
+}
+
+#mid4 button:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: #31dd6d;
+}
+
+
+.foot{
+    height: 74vh;
+    background-color: black;
+}
+#footerbackground{
+    /* height: 74vh;
+     background-color: black; */
+     display: flex;
+     justify-content: space-evenly;
+}
+.footer{
+    height: 50vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#foot2{
+    height: 100%;
+    width: 76%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#logobox{
+    fill: white;
+    width: 13%;
+    /* border: 2px solid yellow; */
+    height: 100%;
+}
+#footerlogo svg{
+    width: 95%;
+}
+#footerlist{
+    color: white;
+    display: flex;
+}
+
+.dl{
+    width: 170px;
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+dl a{
+    color: #fff;
+    text-decoration: none;
+}
+dl a:hover{
+    color: #1ed760;
+}
+dl dt{
+    font-size: 12px;
+    color: #919496;
+}
+dd{
+    font-size: 13px;
+}
+
+#footericons{
+    height: 100%;
+    width: 23%;
+    /* border: 2px solid aquamarine; */
+    margin-left: auto;
+    
+}
+#iconbackground li{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color:#222326;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#iconbackground ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+#iconbackground li i{
+    font-size: 23px;
+    color: white;
+}
+#iconbackground li:hover i{
+    cursor: pointer;
+    color: #1ed760;
+}
+#iconbackground li:hover{
+    cursor: pointer;
+}
+#bottom1{
+    height: 30px;
+    width: 76%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#bottom2{
+    height: 30px;
+    width: 76%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#bottom1 a{
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+#bottom1 a svg{
+    margin: 0px 8px 0px 0px;
+}
+#bottom2 ul li{
+    list-style: none;
+    font-size: 12px;
+}
+#bottom2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom2 div{
+    height: 30px;
+    width: 39%;
+    /* border: 2px solid goldenrod; */
+    
+}
+#footdiv{
+    display: flex;
+    justify-content: flex-end;
+}
+#footdiv span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #919496;
+}
+#bottom2 div ul a{
+    color: #919496;
+    text-decoration: none;
+}
+#bottom2 li:hover, #indiatext:hover{
+    color: #1ed760;
+
+}
